@@ -11,9 +11,6 @@ document.querySelector('.clear').addEventListener('click',clear);
 document.querySelector('.sqrt').addEventListener('click',sqrt);
 
 function equal(){
-    if(display.slice(-2)==="/0"){
-        display.value='Cannot be divided by zero';
-    }
     display.value=eval(display.value);
 }
 function clear(){
